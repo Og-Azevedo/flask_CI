@@ -11,5 +11,5 @@ RUN pip install -r requirements.txt
 # RUN pip3 install --trusted-host pypi.python.org pyodbc==4.0.26
 
 COPY . .
-#EXPOSE 8000
+EXPOSE 5000
 CMD [ "python3", "-m" , "flask", "run", "--host=0.0.0.0"]
