@@ -14,7 +14,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello_world():
-    return f"<h1>Integração contínua_UP</h1> <p>{SECRET}</p>"
+    return f"<h1>Integração contínua_UP2</h1> <p>{SECRET}</p>"
 
 # @app.route("/banco")
 # def banco():
